@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1",
+    "save": "^2.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "mean-course-backend",
+  "version": "1.0.0",
+  "description": "mean course backend project",
+  "main": "app.js",
+  "author": "israifl",
+  "license": "ISC"
+}
