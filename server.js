@@ -15,14 +15,7 @@ const normalizedPort = val => {
 }
 
 
-
-
-
-
 app.set("port",port);
-
-
-
 
 
 
