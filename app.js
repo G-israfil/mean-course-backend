@@ -8,7 +8,7 @@ const cors = require('cors')
 const bodyParser = require("body-parser");
 
 const app = express();
-mongoose.connect("mongodb+srv://root:123456iS.@mean-course.u8lbvod.mongodb.net/mean-course?retryWrites=true&w=majority&appName=mean-course").then(res => {
+mongoose.connect(`mongodb+srv://${process.env.db_username}:${process.env.db_password}@mean-course.u8lbvod.mongodb.net/${process.env.db}?retryWrites=true&w=majority&appName=mean-course`).then(res => {
     console.log("Server connected to mongo db successfully...");
 }).catch(error => {
     console.log("Connection failed!!");
